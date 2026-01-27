@@ -1,0 +1,61 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: radial-gradient(#a397e5, #785AB4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+/* Section Divider */
+.section-line {
+  width: 80px;
+  height: 4px;
+  background: #3E1A84;
+  margin: 3rem auto;
+}
+
+/* Smooth Scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Text Selection */
+::selection,
+::-moz-selection {
+  background: rgba(139, 92, 246, 0.3);
+  color: white;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f23;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(139, 92, 246, 0.5);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(139, 92, 246, 0.7);
+}
+
+.particle {
+    position: absolute;
+    border-radius: 50%;
+    background: white;
+    opacity: 0;
+    pointer-events: none;
+}
