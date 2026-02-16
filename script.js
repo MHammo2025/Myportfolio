@@ -136,3 +136,7 @@ document.addEventListener('mousemove', (e) => {
         setTimeout(() => particle.remove(), 2000);
     }, 10);
 });
+document.addEventListener('DOMContentLoaded', function() {
+  document.getElementById('year').textContent = new Date().getFullYear();
+});
+    
